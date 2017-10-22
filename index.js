@@ -20,10 +20,10 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string){
 
-  if ("hello" === string) {
+  if (lowercase === string) {
     console.log("I cant hear you")
   }
-  else if ("HELLO" === string) {
+  else if (uppercase === string) {
     console.log("YES INDEED")
   }
 }
