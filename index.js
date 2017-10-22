@@ -19,10 +19,10 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string){
-  if ("hello" === string){
+  if ("hello" == string){
     console.log("I cant hear you")
 }
- else if ("HELLO" === string) {
+ else if ("HELLO" == string) {
     console.log("YES INDEED")
 }
   else {
